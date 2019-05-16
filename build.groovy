@@ -10,5 +10,6 @@ stage('commit') {
 	git commit -m "README"
 	git push https://${GIT_USER}:${GIT_PASS}@github.com/jenkinsorganize/mytest.git
 	'''
+	}
 }
 }
