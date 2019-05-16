@@ -8,7 +8,7 @@ stage('commit') {
 	touch README
 	git add .
 	git commit -m "README"
-	git push https://${GIT_USER}:${GIT_PASS}@github.com/jenkinsorganize/mytest.git
+	git push --set-upstream https://${GIT_USER}:${GIT_PASS}@github.com/jenkinsorganize/mytest.git master
 	'''
 	}
 }
