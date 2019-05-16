@@ -10,5 +10,5 @@ def getGitCommit() {
     ).trim()
     return git_commit
 }
-
+}
 }
