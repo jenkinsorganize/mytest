@@ -8,7 +8,7 @@ stage('commit') {
 	echo hello >> README
 	git add .
 	git commit -m "README"
-	git push
+	git push --set-upstream origin master
 	'''
 	}
 }
