@@ -1,5 +1,5 @@
 node {
 stage ('Clone') {
-git url: 'git@github.com:jenkinsorganize/newtest.git'
+git url: 'https://github.com/jenkinsorganize/mytest.git'
 }
 }
