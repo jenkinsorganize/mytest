@@ -4,7 +4,7 @@ node(label: 'master') {
     currentBuild.result = "SUCCESS"
     try {
         stage('Checkout') {
-			sh "/app/test/tool/groovy-2.4.12/bin/groovy ./build.groovy"
+	sh '/app/test/tool/groovy-2.4.12/bin/groovy ./build.groovy'
         }
 
     }
