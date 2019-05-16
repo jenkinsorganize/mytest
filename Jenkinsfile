@@ -1,5 +1,5 @@
 env.DISPLAY=":0"
-node(label: 'slave') {
+node(label: 'master') {
 
     currentBuild.result = "SUCCESS"
     try {
